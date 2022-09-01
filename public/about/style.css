@@ -1,0 +1,145 @@
+@import url(../home/styles/style.css);
+
+
+.about- {
+    margin: 80px auto;
+    width: 90vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/27/01/04/scissors-5225269_960_720.jpg');
+}
+
+.about- h2 {
+    text-align: center;
+    /* padding-right: 8%; */
+    padding-top: 15%;
+    color: whitesmoke;
+    font-size: 8vmin;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-img {
+    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.image {
+    width: 580px;
+    height: 610px;
+}
+
+.about-text {
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.about-text h2 {
+
+    font-size: 6vmin;
+    font-weight: bolder;
+}
+
+.about-text h4 {
+
+    font-size: 3vmin;
+    color: rgb(112, 110, 110);
+    font-weight: 500;
+}
+
+.about-text p {
+    font-weight: 500;
+    color: gray;
+    width: 500px;
+    font-size: 2vmin;
+    word-spacing: 2px;
+}
+
+.men-img {
+    width: 40px;
+    height: 40px;
+}
+
+.row-foot span {
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+
+.overlay {
+    text-align: center;
+    border: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.images {
+    display: block;
+    padding: 0;
+    width: 381px;
+    height: 420px;
+}
+
+.image-gallery-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wanted h4 {
+    padding-left: 4%;
+    color: whitesmoke;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.wanted h6 {
+    padding-left: 4%;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.wanted span {
+    color: black;
+}
+
+.wanted span:hover {
+    color: #f85738;
+
+}
