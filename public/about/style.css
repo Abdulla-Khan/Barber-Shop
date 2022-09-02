@@ -23,21 +23,21 @@
 }
 
 .about-img {
-    padding-bottom: 100px;
-    padding-top: 90px;
-    padding-left: 100px;
+
+
     display: flex;
     flex-wrap: wrap;
     align-self: center;
 }
 
 .image {
+    margin: 100px auto;
     width: 580px;
-    height: 610px;
+    height: 500px;
 }
 
 .about-text {
-    margin: 150px auto;
+    margin: 10% auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -46,7 +46,7 @@
 
 .about-text h2 {
 
-    font-size: 6vmin;
+    font-size: 8vmin;
     font-weight: bolder;
 }
 
@@ -141,6 +141,77 @@
 
 .wanted span:hover {
     color: #f85738;
-    cursor:pointer
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+
+
+@media screen and (max-width:850px) {
+
+
+    .about-img {
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+
+    .image {
+        margin: 3% auto;
+        width: 580px;
+        height: 500px;
+    }
+
+    .about-text {
+        /* margin-right: 10px; */
+        /* text-align: center; */
+        /* align-items: center; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .about-text h2 {
+
+        font-size: 40px;
+        width: 260px;
+        font-weight: bolder;
+    }
+
+    .about-text h4 {
+        width: 260px;
+        font-size: 25px;
+        color: rgb(112, 110, 110);
+        font-weight: 500;
+    }
+
+    .about-text p {
+        /* margin-right: 10px; */
+        width: 250px;
+        font-weight: 500;
+        color: gray;
+        font-size: 6vmin;
+        word-spacing: 2px;
+    }
+
+    .men-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .row-foot span {
+        letter-spacing: 2px;
+        margin: 5px;
+    }
+
+    .wanted span {
+        color: #f85738;
+        cursor: pointer;
+        transition: .3s ease;
+
+    }
 
 }
