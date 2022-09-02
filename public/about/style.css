@@ -8,11 +8,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
-    background-image: url('https://cdn.pixabay.com/photo/2020/05/27/01/04/scissors-5225269_960_720.jpg');
+    background-image: url('../images/background-about.jpg');
 }
 
 .about- h2 {
-    text-align: center;
+    /* text-align: center; */
     /* padding-right: 8%; */
     padding-top: 15%;
     color: whitesmoke;
@@ -27,7 +27,7 @@
 
     display: flex;
     flex-wrap: wrap;
-    align-self: center;
+    /* align-self: center; */
 }
 
 .image {
