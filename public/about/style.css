@@ -105,14 +105,15 @@
 
 .container {
     position: relative;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .images {
     display: block;
     padding: 0;
-    width: 381px;
-    height: 420px;
+    margin: 0;
+    width: 379px;
+    height: auto;
 }
 
 .image-gallery-about {
@@ -124,7 +125,6 @@
     padding-left: 4%;
     color: whitesmoke;
     text-align: left;
-    padding-bottom: 0;
 }
 
 .wanted h6 {
@@ -141,5 +141,6 @@
 
 .wanted span:hover {
     color: #f85738;
+    cursor:pointer
 
 }
