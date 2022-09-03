@@ -11,7 +11,6 @@
 }
 
 .logo-d {
-    /* margin: 10px auto; */
     text-align: center;
 }
 
@@ -40,7 +39,6 @@ ul {
     flex-wrap: wrap;
     position: relative;
     left: 36%;
-    /* top: 1%; */
 }
 
 .navbar {
@@ -70,7 +68,6 @@ ul {
 .li {
     margin: 0px 30px;
     letter-spacing: 4px;
-    /* font-size: 12px; */
     color: black;
     font-weight: bold;
 }
@@ -167,13 +164,10 @@ ul {
 }
 
 .row {
-    /* color: red; */
-    /* display: inline-block; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 
@@ -187,7 +181,6 @@ ul {
 
 table {
     padding: 0;
-    /* text-align: ; */
     width: 60%;
     margin: 10px auto;
     text-align: center;
@@ -299,7 +292,6 @@ iframe {
 .row-foot {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: ; */
 }
 
 .wanted h4 {
@@ -327,7 +319,6 @@ iframe {
 }
 
 .line {
-    /* margin-top: 50px; */
     width: 80%;
     height: 0.5px;
     background-color: gray;
