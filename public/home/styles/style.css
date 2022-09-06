@@ -150,15 +150,19 @@ ul {
 
 
 .offer h2 {
+    font-size: 8vmin;
     font-weight: 900;
 }
 
 .offer h4 {
+    font-size: 3vmin;
+
     padding-bottom: 5%;
     font-weight: 900;
 }
 
 hr {
+    /* word-spacing: 10px; */
     border-top: dotted 5px;
     width: 300px;
 }
@@ -188,7 +192,17 @@ hr {
     margin: 0;
 }
 
+.li-price {
+    font-size: 2.5vmin;
+    font-weight: 900;
+    color: #f85728;
+}
 
+.li-service {
+    font-size: 2.5vmin;
+    font-weight: 900;
+    /* color: #f85728; */
+}
 
 #welcomeDiv {
     width: 100%;
@@ -403,5 +417,29 @@ iframe {
 
     hr {
         width: 30%
+    }
+
+    .row {
+        margin-right: 15%;
+
+    }
+
+
+    hr {
+        /* word-spacing: 10px; */
+        border-top: dotted 3px;
+        width:100px;
+    }
+
+    .li-price {
+        font-size: 4vmin;
+
+        /* font-weight: 900; */
+        color: #f85728;
+    }
+
+    .li-service {
+        font-size: 4vmin;
+        /* font-weight: 900; */
     }
 }

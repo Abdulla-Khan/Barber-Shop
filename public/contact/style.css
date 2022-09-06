@@ -24,7 +24,7 @@ button {
 
 }
 
-button:hover {
+button:hover {  
     background-color: black;
     transform: scale(1.1);
 }

@@ -1,0 +1,60 @@
+@import url(../home/styles/style.css);
+@import url(../about/style.css);
+
+
+.about- {
+    width: 80%;
+    /* background-size: contain; */
+    background-size: auto;
+    background-image: url('../images/pricing.jpg');
+
+}
+
+
+/* .about- {
+    margin: 80px auto;
+    width: 90vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+} */
+
+.about- h2 {
+    padding-top: 15%;
+    color: whitesmoke;
+    font-size: 8vmin;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.haircuts {
+    margin-left: 13%;
+}
+
+.fa-star {
+
+    color: rgb(255, 98, 0);
+}
+
+
+.offer {
+    /* text-align: center; */
+    margin-bottom: 10%;
+}
+
+
+@media screen and (max-width:850px) {
+
+
+    .about- {
+        /* width: auto; */
+        
+        background-size:cover;
+        /* background-size: auto; */
+        background-image: url('../images/pricing.jpg');
+    
+    }
+   
+
+}

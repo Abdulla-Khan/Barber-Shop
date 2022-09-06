@@ -1,21 +1,11 @@
 function myFunction(y) {
     y.classList.toggle("fa-plus");
-
-
-
     var x = document.getElementById("welcomeDiv");
-
-
     if (x.style.display == "none") {
         x.style.display = 'block'
-
-
-
-    } else {
+    }
+    else {
         x.style.display = "none";
-
-
-
     }
 }
 
